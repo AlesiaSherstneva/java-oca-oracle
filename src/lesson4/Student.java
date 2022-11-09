@@ -4,6 +4,7 @@ public class Student {
     int IDCardNumber;
     String name;
     String surname;
+    byte yearOfStudy;
     float mathAvgScore;
     float econAvgScore;
     float langAvgScore;
@@ -15,6 +16,7 @@ class StudentTest {
         student1.IDCardNumber = 19233160;
         student1.name = "Ivan";
         student1.surname = "Ivanov";
+        student1.yearOfStudy = 3;
         student1.mathAvgScore = 7.9F;
         student1.econAvgScore = 8.3F;
         student1.langAvgScore = 6.8F;
@@ -26,6 +28,7 @@ class StudentTest {
         student2.IDCardNumber = 19233163;
         student2.name = "Anna";
         student2.surname = "Smirnova";
+        student2.yearOfStudy = 1;
         student2.mathAvgScore = 8.1F;
         student2.econAvgScore = 8.6F;
         student2.langAvgScore = 8.3F;
@@ -37,6 +40,7 @@ class StudentTest {
         student3.IDCardNumber = 19233171;
         student3.name = "Petr";
         student3.surname = "Petrov";
+        student3.yearOfStudy = 5;
         student3.mathAvgScore = 5.3F;
         student3.econAvgScore = 6.1F;
         student3.langAvgScore = 4.5F;
