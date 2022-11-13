@@ -4,9 +4,9 @@ import lesson7.package1.Employee;
 
 public class EmployeeTest {
     public static void main(String[] args) {
-        Employee publicEmployee = new Employee(); //ok
-        // Employee defaultEmployee = new Employee("Ivanov", 25); //default constructor, compile error
-        // Employee privateEmployee = new Employee(3, "Petrov", 34, 185.80, "Development"); //private constructor, compile error
+        Employee publicEmployee = new Employee(28); //ok
+        // Employee defaultEmployee = new Employee("Ivanov"); //default constructor, compile error
+        // Employee privateEmployee = new Employee(185.80); //private constructor, compile error
 
         // System.out.println(publicEmployee.salary); //private field, compile error
         System.out.println(publicEmployee.surname); //ok

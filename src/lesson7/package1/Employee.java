@@ -8,20 +8,16 @@ public class Employee {
     private double salary;
     String department;
 
-    public Employee() {
-    }
-
-    Employee(String surname, int age) {
-        this.surname = surname;
+    public Employee(int age) {
         this.age = age;
     }
 
-    private Employee(int id, String surname, int age, double salary, String department) {
-        this.id = id;
+    Employee(String surname) {
         this.surname = surname;
-        this.age = age;
+    }
+
+    private Employee(double salary) {
         this.salary = salary;
-        this.department = department;
     }
 
     public void showSurname() {

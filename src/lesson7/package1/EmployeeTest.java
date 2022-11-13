@@ -2,9 +2,9 @@ package lesson7.package1;
 
 public class EmployeeTest {
     public static void main(String[] args) {
-        Employee publicEmployee = new Employee(); //ok
-        Employee defaultEmployee = new Employee("Ivanov", 25); //ok
-        // Employee privateEmployee = new Employee(3, "Petrov", 34, 185.80, "Development"); //private constructor, compile error
+        Employee publicEmployee = new Employee(33); //ok
+        Employee defaultEmployee = new Employee("Ivanov"); //ok
+        // Employee privateEmployee = new Employee(185.80); //private constructor, compile error
 
         // System.out.println(publicEmployee.salary); //private field, compile error
         System.out.println(publicEmployee.surname); //ok
