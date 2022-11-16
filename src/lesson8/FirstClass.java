@@ -11,14 +11,14 @@ public class FirstClass {
     }
 
     //second task
-    static final double pi = 3.14;
+    static final double PI = 3.14;
 
     public double circleArea(int radius) {
-        return pi * radius * radius;
+        return PI * radius * radius;
     }
 
     public static double circumference(int radius) {
-        return 2 * pi * radius;
+        return 2 * PI * radius;
     }
 
     public void circleInfo(int radius) {
