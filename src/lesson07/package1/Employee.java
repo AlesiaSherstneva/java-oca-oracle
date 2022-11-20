@@ -1,4 +1,4 @@
-package lesson7.package1;
+package lesson07.package1;
 
 @SuppressWarnings("unused")
 public class Employee {

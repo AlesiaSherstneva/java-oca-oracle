@@ -1,4 +1,4 @@
-package lesson5;
+package lesson05;
 
 @SuppressWarnings({"unused", "SameParameterValue"})
 public class BankAccount {

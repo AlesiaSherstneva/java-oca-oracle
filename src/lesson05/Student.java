@@ -1,34 +1,13 @@
-package lesson6;
+package lesson05;
 
 public class Student {
-    int id;
+    int IDCardNumber;
     String name;
     String surname;
-    int course;
+    byte yearOfStudy;
     float mathAvgScore;
     float econAvgScore;
     float langAvgScore;
-
-    public Student() {
-    }
-
-    public Student(int id, String name, String surname, int course) {
-        this.id = id;
-        this.name = name;
-        this.surname = surname;
-        this.course = course;
-    }
-
-    public Student(int id, String name, String surname, int course,
-                   float mathAvgScore, float econAvgScore, float langAvgScore) {
-        this.id = id;
-        this.name = name;
-        this.surname = surname;
-        this.course = course;
-        this.mathAvgScore = mathAvgScore;
-        this.econAvgScore = econAvgScore;
-        this.langAvgScore = langAvgScore;
-    }
 }
 
 @SuppressWarnings("DuplicatedCode")
@@ -37,25 +16,35 @@ class StudentTest {
         StudentTest test = new StudentTest();
 
         Student student1 = new Student();
-        student1.id = 19233160;
+        student1.IDCardNumber = 19233160;
         student1.name = "Ivan";
         student1.surname = "Ivanov";
-        student1.course = 3;
+        student1.yearOfStudy = 3;
         student1.mathAvgScore = 7.9F;
         student1.econAvgScore = 8.3F;
         student1.langAvgScore = 6.8F;
 
         test.countAverageScore(student1);
 
-        Student student2 = new Student(19233163, "Anna", "Smirnova", 1);
+        Student student2 = new Student();
+        student2.IDCardNumber = 19233163;
+        student2.name = "Anna";
+        student2.surname = "Smirnova";
+        student2.yearOfStudy = 1;
         student2.mathAvgScore = 8.1F;
         student2.econAvgScore = 8.6F;
         student2.langAvgScore = 8.3F;
 
         test.countAverageScore(student2);
 
-        Student student3 = new Student(19233171, "Petr", "Petrov", 5,
-                5.3F, 6.1F, 4.5F);
+        Student student3 = new Student();
+        student3.IDCardNumber = 19233171;
+        student3.name = "Petr";
+        student3.surname = "Petrov";
+        student3.yearOfStudy = 5;
+        student3.mathAvgScore = 5.3F;
+        student3.econAvgScore = 6.1F;
+        student3.langAvgScore = 4.5F;
 
         test.countAverageScore(student3);
     }

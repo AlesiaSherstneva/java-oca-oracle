@@ -1,4 +1,4 @@
-package lesson6;
+package lesson06;
 
 @SuppressWarnings({"SameParameterValue", "UnusedReturnValue"})
 public class OverloadedSum {

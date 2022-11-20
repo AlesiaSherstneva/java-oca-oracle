@@ -1,6 +1,6 @@
-package lesson7.package2;
+package lesson07.package2;
 
-import lesson7.package1.Employee;
+import lesson07.package1.Employee;
 
 public class EmployeeTest {
     public static void main(String[] args) {

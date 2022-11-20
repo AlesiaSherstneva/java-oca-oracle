@@ -1,4 +1,4 @@
-package lesson9;
+package lesson09;
 
 @SuppressWarnings({"unused", "UnusedAssignment"})
 public class Main {
