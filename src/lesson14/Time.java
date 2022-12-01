@@ -1,16 +1,15 @@
 package lesson14;
 
 public class Time {
-    @SuppressWarnings("ConstantConditions")
     static void showTime() {
         HOURS:
         for (int hour = 0; hour <= 6; hour++) {
             MINUTES:
             for (int min = 0; min < 60; min++) {
+                if (min != 0 && min % 10 == 0 && hour > 1) {
+                    break HOURS;
+                }
                 for (int sec = 0; sec < 60; sec++) {
-                    if (hour > 1 && min % 10 == 0) {
-                        break HOURS;
-                    }
                     if (sec * hour > min) {
                         continue MINUTES;
                     }
