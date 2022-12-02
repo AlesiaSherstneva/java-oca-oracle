@@ -6,7 +6,7 @@ public class Time {
         for (int hour = 0; hour <= 6; hour++) {
             MINUTES:
             for (int min = 0; min < 60; min++) {
-                if (min != 0 && min % 10 == 0 && hour > 1) {
+                if (min % 10 == 0 && hour > 1) {
                     break HOURS;
                 }
                 for (int sec = 0; sec < 60; sec++) {
