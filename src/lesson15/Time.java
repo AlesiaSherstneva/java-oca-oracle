@@ -7,10 +7,10 @@ public class Time {
         HOURS:
         while (hour <= 6) {
             do {
+                if (min % 10 == 0 && hour > 1) {
+                    break HOURS;
+                }
                 while (sec < 60) {
-                    if (min % 10 == 0 && hour > 1) {
-                        break HOURS;
-                    }
                     if (sec * hour > min) {
                         break;
                     }
