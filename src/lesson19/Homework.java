@@ -30,15 +30,15 @@ public class Homework {
         System.out.println(Arrays.toString(result));
     }
 
-    public static String[] abc(String[] ... stringArrays) {
+    public static String[] abc(String[]... stringArrays) {
         int length = 0;
-        for (String[] array: stringArrays) {
+        for (String[] array : stringArrays) {
             length += array.length;
         }
         String[] result = new String[length];
         int count = 0;
-        for (String[] stringArray: stringArrays) {
-            for (String string: stringArray) {
+        for (String[] stringArray : stringArrays) {
+            for (String string : stringArray) {
                 result[count] = string;
                 count++;
             }
