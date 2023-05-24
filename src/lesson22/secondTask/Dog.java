@@ -1,8 +1,6 @@
 package lesson22.secondTask;
 
 public class Dog extends Pet {
-    public final String name;
-
     public Dog(String name) {
         this.name = name;
         System.out.printf("I am dog and my name is %s\n", name);
