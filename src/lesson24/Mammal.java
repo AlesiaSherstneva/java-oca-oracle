@@ -8,5 +8,5 @@ public abstract class Mammal extends Animal implements Speakable {
         this.name = name;
     }
 
-    abstract void run();
+    public abstract void run();
 }

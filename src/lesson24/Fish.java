@@ -9,9 +9,9 @@ public abstract class Fish extends Animal {
     }
 
     @Override
-    void sleep() {
+    public void sleep() {
         System.out.println("It's always interesting to watch the fish sleeping");
     }
 
-    abstract void swim();
+    public abstract void swim();
 }

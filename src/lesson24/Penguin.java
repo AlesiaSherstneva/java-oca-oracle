@@ -9,17 +9,17 @@ public class Penguin extends Bird {
     }
 
     @Override
-    void eat() {
+    public void eat() {
         System.out.println("Penguin likes to eat fish");
     }
 
     @Override
-    void sleep() {
+    public void sleep() {
         System.out.println("Penguins sleep huddled together");
     }
 
     @Override
-    void fly() {
+    public void fly() {
         System.out.println("Penguin can't fly");
     }
 

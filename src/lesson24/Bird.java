@@ -8,7 +8,7 @@ public abstract class Bird extends Animal implements Speakable {
         this.name = name;
     }
 
-    abstract void fly();
+    public abstract void fly();
 
     @Override
     public void speak() {

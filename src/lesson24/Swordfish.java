@@ -9,12 +9,12 @@ public class Swordfish extends Fish {
     }
 
     @Override
-    void swim() {
+    public void swim() {
         System.out.println("Swordfish is a beautiful fish that swims fast");
     }
 
     @Override
-    void eat() {
+    public void eat() {
         System.out.println("Swordfish is not a predatory fish and it eats regular fish food");
     }
 }

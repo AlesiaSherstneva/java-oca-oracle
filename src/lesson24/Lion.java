@@ -9,17 +9,17 @@ public class Lion extends Mammal{
     }
 
     @Override
-    void eat() {
+    public void eat() {
         System.out.println("Lion, like any predator, loves meat");
     }
 
     @Override
-    void sleep() {
+    public void sleep() {
         System.out.println("Lion sleeps for most of the day");
     }
 
     @Override
-    void run() {
+    public void run() {
         System.out.println("Lion is not the fastest cat");
     }
 }
